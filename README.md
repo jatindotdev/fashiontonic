@@ -1,16 +1,14 @@
-# fashoontonic
+# Fashontonic
 
-A new Flutter project.
+A Shopping App using Flutter and GetX for state management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- [x] - Standard folder structure
+- [x] - Modularized widget for reuseablity
+- [x] - GetX for statemanagement
+- [ ] - Fully working prototype (work in progress)\*
 
-A few resources to get you started if this is your first Flutter project:
+## Previews - (as of now)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/59236972/226965209-67bbacc1-fdc1-43e0-a1a4-4c9fc6f0b680.mp4
