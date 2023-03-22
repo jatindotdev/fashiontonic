@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class CustomChip extends StatelessWidget {
   const CustomChip({
@@ -38,8 +39,8 @@ class CustomChip extends StatelessWidget {
             child: Text(
               label,
               style: const TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.w600,
+                fontSize: 16,
+                fontWeight: FontWeight.w500,
               ),
             ),
           ),

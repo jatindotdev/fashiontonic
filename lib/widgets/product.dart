@@ -1,5 +1,7 @@
+import 'package:fashontonic/screens/product_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class Product extends StatelessWidget {
   final String image;
@@ -15,8 +17,13 @@ class Product extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final images = List.filled(5, "assets/women_tops.avif");
     return InkWell(
-      onTap: () {},
+      onTap: () => Get.to(
+        ProductPage(
+          images: images,
+        ),
+      ),
       borderRadius: BorderRadius.circular(8),
       child: Column(
         children: [

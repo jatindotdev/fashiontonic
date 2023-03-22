@@ -82,12 +82,16 @@ PreferredSizeWidget _buildAppBar() {
     toolbarHeight: kToolbarHeight + 28,
     actions: [
       Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 8),
-        child: SizedBox(
-          height: kToolbarHeight + 4,
-          child: IconButton(
-            onPressed: () {},
-            icon: Image.asset("assets/avatar.png"),
+        padding: const EdgeInsets.only(right: 16),
+        child: IconButton(
+          onPressed: () {
+            Get.toNamed("/cart");
+          },
+          icon: const Icon(CupertinoIcons.bag),
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.all(Colors.black),
+            foregroundColor: MaterialStateProperty.all(Colors.white),
+            padding: const MaterialStatePropertyAll(EdgeInsets.all(10)),
           ),
         ),
       ),
