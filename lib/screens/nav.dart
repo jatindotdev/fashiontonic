@@ -78,6 +78,12 @@ PreferredSizeWidget _buildAppBar() {
         padding: const MaterialStatePropertyAll(EdgeInsets.all(10)),
       ),
     ),
+    title: const Text(
+      "Fashiontonic",
+      style: TextStyle(
+        fontWeight: FontWeight.w500,
+      ),
+    ),
     leadingWidth: 72,
     toolbarHeight: kToolbarHeight + 28,
     actions: [
