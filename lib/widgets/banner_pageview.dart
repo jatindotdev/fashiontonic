@@ -1,4 +1,4 @@
-import 'package:fashontonic/utils/utils.dart';
+import 'package:fashiontonic/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,8 +1,8 @@
-import 'package:fashontonic/screens/favourites.dart';
-import 'package:fashontonic/screens/home.dart';
-import 'package:fashontonic/screens/notifications.dart';
-import 'package:fashontonic/screens/profile.dart';
-import 'package:fashontonic/state/controller.dart';
+import 'package:fashiontonic/screens/favourites.dart';
+import 'package:fashiontonic/screens/home.dart';
+import 'package:fashiontonic/screens/notifications.dart';
+import 'package:fashiontonic/screens/profile.dart';
+import 'package:fashiontonic/state/controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

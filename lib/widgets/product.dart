@@ -1,4 +1,4 @@
-import 'package:fashontonic/screens/product_page.dart';
+import 'package:fashiontonic/screens/product_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

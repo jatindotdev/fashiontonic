@@ -1,4 +1,4 @@
-package com.example.fashontonic
+package com.example.fashiontonic
 
 import io.flutter.embedding.android.FlutterActivity
 

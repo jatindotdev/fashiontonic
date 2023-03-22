@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fashontonic">
+    package="com.example.fashiontonic">
    <application
-        android:label="fashontonic"
+        android:label="Fashiontonic"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

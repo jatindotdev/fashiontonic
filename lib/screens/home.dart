@@ -1,8 +1,8 @@
-import 'package:fashontonic/state/controller.dart';
-import 'package:fashontonic/widgets/banner_pageview.dart';
-import 'package:fashontonic/widgets/custom_chip.dart';
-import 'package:fashontonic/widgets/product.dart';
-import 'package:fashontonic/widgets/text_field.dart';
+import 'package:fashiontonic/state/controller.dart';
+import 'package:fashiontonic/widgets/banner_pageview.dart';
+import 'package:fashiontonic/widgets/custom_chip.dart';
+import 'package:fashiontonic/widgets/product.dart';
+import 'package:fashiontonic/widgets/text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

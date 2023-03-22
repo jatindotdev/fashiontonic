@@ -1,4 +1,4 @@
-# fashontonic
+# fashoontonic
 
 A new Flutter project.
 
