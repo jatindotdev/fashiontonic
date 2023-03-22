@@ -29,8 +29,8 @@ class CustomTextField extends StatelessWidget {
         prefixIconColor: const Color(0xFF191B26),
         prefixIcon: const Icon(CupertinoIcons.search),
         hintText: label,
-        border: const OutlineInputBorder(
-          borderRadius: BorderRadius.all(Radius.circular(8)),
+        border: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(8),
           borderSide: BorderSide.none,
         ),
       ),

@@ -16,22 +16,32 @@ class CustomChip extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 8),
-      child: TextButton(
-        onPressed: onPressed,
-        style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all(
-            selected ? const Color(0xFF191B26) : Colors.grey.shade100,
+      child: SizedBox(
+        height: 32,
+        child: TextButton(
+          onPressed: onPressed,
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.all(
+              selected ? Colors.black : Colors.white,
+            ),
+            foregroundColor: MaterialStateProperty.all(
+              selected ? Colors.white : Colors.black,
+            ),
+            shape: MaterialStateProperty.all(
+              RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8),
+              ),
+            ),
           ),
-          padding: const MaterialStatePropertyAll(
-            EdgeInsets.symmetric(horizontal: 16),
-          ),
-        ),
-        child: Text(
-          label,
-          style: TextStyle(
-            color: selected ? Colors.white : const Color(0xFF191B26),
-            fontSize: 16,
-            fontWeight: FontWeight.w600,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 8),
+            child: Text(
+              label,
+              style: const TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
           ),
         ),
       ),
