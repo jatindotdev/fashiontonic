@@ -5,7 +5,7 @@ A Shopping App using Flutter and GetX for state management.
 ## Features
 
 - [x] - Standard folder structure
-- [x] - Modularized widget for reuseablity
+- [x] - Modularized widget for reuseablity* ( not fully modularized yet )
 - [x] - GetX for statemanagement
 - [ ] - Fully working prototype (work in progress)\*
 
